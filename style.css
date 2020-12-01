@@ -1,0 +1,77 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+body {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    text-align: center;
+    background-image: url("bmi-background.png");
+}
+img {
+    position: absolute;
+    left: 41.25%;
+    right: 41.23%;
+    top: 6.67%;
+    bottom: 85.35%;
+}
+#submit {
+    position: absolute;
+    width: 403.6px;
+    height: 81.2px;
+    left: 758px;
+    top: 680.5px;
+    border-radius: 30px;
+    background-color: #5F27CD
+}
+
+#height {
+    position: absolute;
+    width: 415px;
+    height: 70px;
+    left: 753px;
+    top: 442px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#weight {
+    position: absolute;
+    width: 415px;
+    height: 70px;
+    left: 753px;
+    top: 542px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#age {
+    position: absolute;
+    width: 415px;
+    height: 70px;
+    left: 753px;
+    top: 342px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    position: absolute;
+    left: 29.69%;
+    right: 29.64%;
+    top: 85.37%;
+    bottom: 15.09%;
+}
+
+h2 {
+    position: absolute;
+    left: 29.69%;
+    right: 29.64%;
+    top: 80.37%;
+    bottom: 15.09%;
+}

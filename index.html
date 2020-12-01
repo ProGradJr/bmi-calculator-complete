@@ -1,0 +1,32 @@
+﻿<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <img src= "bmi-calculator-logo.png">
+</head>
+<body>
+    <form class="form" id="form" onsubmit="return validateForm()">
+        <div class="row-one">
+            <div class="Age">
+                <input type="text" placeholder="Enter your Age" class="text-input" id="age" autocomplete="off" required /><p class="text"></p>
+            </div>
+            </label>
+        </div>
+        <div class="row-two">
+
+            <div class="Height">
+                <input type="text" placeholder="Enter your height" class="text-input" id="height" autocomplete="off" required><p class="text"></p>
+            </div>
+
+            <div class="Weight">
+                <input type="text" placeholder="Enter your weight" class="text-input" id="weight" autocomplete="off" required><p class="text"></p>
+            </div>
+        </div>
+        <div id="Calculate">
+            <button id="submit">Calculate</button>
+        </div>
+    </form>
+    <script src="./app.js"></script>
+</body>
+
+</html>
