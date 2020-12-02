@@ -1,77 +1,53 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
-
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
-    position: absolute;
-    width: 1920px;
-    height: 1080px;
     text-align: center;
-    background-image: url("bmi-background.png");
+    background-image: url("https://i1.faceprep.in/bmi-background.png");
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
 }
+
 img {
-    position: absolute;
-    left: 41.25%;
-    right: 41.23%;
-    top: 6.67%;
-    bottom: 85.35%;
+margin: 30px;
+width: 15%;
 }
+
+#text {
+    margin: 0 500px 40px 500px;
+}
+
+#height, #weight, #age {
+    margin: 0 0 20px 0;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
 #submit {
-    position: absolute;
-    width: 403.6px;
-    height: 81.2px;
-    left: 758px;
-    top: 680.5px;
+    border: none;
+    background-color: #5F27CD;
+    color: white;
+    width: 300px;
+    height: 50px;
     border-radius: 30px;
-    background-color: #5F27CD
+    font-size: 24px;
+    font-weight: 600;
 }
 
-#height {
-    position: absolute;
-    width: 415px;
-    height: 70px;
-    left: 753px;
-    top: 442px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    text-align: center;
+
+h1, h2 {
+    margin: 30px;
 }
 
-#weight {
-    position: absolute;
-    width: 415px;
-    height: 70px;
-    left: 753px;
-    top: 542px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    text-align: center;
-}
-
-#age {
-    position: absolute;
-    width: 415px;
-    height: 70px;
-    left: 753px;
-    top: 342px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    text-align: center;
-}
-
-h1 {
-    position: absolute;
-    left: 29.69%;
-    right: 29.64%;
-    top: 85.37%;
-    bottom: 15.09%;
-}
-
-h2 {
-    position: absolute;
-    left: 29.69%;
-    right: 29.64%;
-    top: 80.37%;
-    bottom: 15.09%;
+p{
+    margin: 30px;
 }
