@@ -13,16 +13,16 @@ body {
 }
 
 img {
-margin: 30px;
-width: 15%;
+margin-top: 5vh;
+width: 20%;
 }
 
 #text {
-    margin: 0 500px 40px 500px;
+    margin: 3vh 32vw;
 }
 
 #height, #weight, #age {
-    margin: 0 0 5px 0;
+    margin: 0 0 3vh 0;
     width: 300px;
     height: 50px;
     text-align: center;
@@ -45,13 +45,9 @@ width: 15%;
 
 
 h1 {
-    margin: 30px;
-}
-
-p{
-    margin: 20px;
+    margin: 60px 0 0 0;
 }
 
 a {
-    margin-top:100px;
+    font-size: 14px;
 }
